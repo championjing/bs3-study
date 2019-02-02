@@ -1,0 +1,45 @@
+.navbar-brand {
+    padding: 10px 15px;
+}
+.navbar {
+    margin-bottom:0px;
+}
+.jumbotron {
+    background: url(../images/banner.png) center center no-repeat;
+    padding-top: 0px;
+    padding-bottom:0px;
+    margin-bottom: 0px;
+}
+.banner-title{
+    font-size: 24px;
+    color: #ddfa52;
+    line-height: 1;
+    margin-top: 70px;
+}
+.jumbotron .banner-detail {
+    font-size: 14px;
+    color:#fff;
+    line-height: 28px;
+    margin-top: 20px;
+}
+/* max-width 屏幕应用范围，最大宽度是1200px */
+@media (max-width:1200px) {
+    .banner-title{
+        margin-top: 40px;
+    }
+}
+@media (max-width:992px) {
+    .banner-title{
+        margin-top: 20px;
+    }
+}
+.gray-bg {
+    background-color: #f2f2f2;
+}
+.common-title {
+    font-size: 30px;
+    color: #b5cd42;
+    line-height: 1;
+    margin-top: 40px;
+
+}

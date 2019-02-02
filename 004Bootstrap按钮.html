@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, 
+    initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>bootstrap 栅格</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <style>
+        .container, .container-fluid {
+            background-color: gold;
+            border: 1px solid #000;
+            height: 150px;
+        }
+        div[class*="col-"] {
+            background-color: rgb(131, 163, 179);
+            border: 1px solid #000;
+            height: 50px;
+        }
+    </style>
+</head>
+<body>    
+    <div class="container">
+        <h1>按钮</h1>
+        <br>
+        <!-- 按钮的class 要以btn开头 加上样式 -->
+        <a href="#" class="btn btn-success">默认</a>
+        <button type="button" class="btn btn-primary">button</button>
+        
+        
+        <div class="btn-group">
+            <button type="button" class="btn btn-primary">Left</button>
+            <button type="button" class="btn btn-default">Middle</button>
+            <button type="button" class="btn btn-default">Right</button>
+        </div>
+        
+    </div>
+    
+</body>
+</html>
